@@ -1,11 +1,10 @@
 import React from 'react'
 
-import Layout from '../components/layout'
-import bannerChefsSpecialties from '../assets/img/banner-chefs-specialties.jpg'
+import LayoutInner from '../components/layoutInner'
 
-const LocationIndex = () => (
-  <Layout>
-    <h1 class="top">Chef's Specials &amp; Vegetables</h1>
+const ChefsSpecialsIndex = () => (
+  <LayoutInner>
+    <h1 className="top">Chef's Specials &amp; Vegetables</h1>
 
     <table className="table table-menu">
       <tbody>
@@ -132,7 +131,7 @@ const LocationIndex = () => (
         <strong className="text-red">*</strong> indicates spicy
       </em>
     </p>
-  </Layout>
+  </LayoutInner>
 )
 
-export default LocationIndex
+export default ChefsSpecialsIndex

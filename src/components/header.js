@@ -9,17 +9,17 @@ const Header = () => (
   >
     <div className="container">
       <div className="navbar-header">
-        <button type="button" className="navbar-toggle">
+        {/* <button type="button" className="navbar-toggle">
           <span className="sr-only">Toggle navigation</span>
           <span className="icon-bar" />
           <span className="icon-bar" />
           <span className="icon-bar" />
-        </button>
+        </button> */}
         <Link className="navbar-brand" to="/">
           <img src={logo} alt="Honeybee Asian Bistro" />
         </Link>
       </div>
-      <nav className="collapse navbar-collapse" role="navigation">
+      <nav className="navbar-collapse in" role="navigation">
         <ul id="menu-primary-navigation" className="nav navbar-nav">
           <li className="menu-home">
             <Link to="/">Home</Link>

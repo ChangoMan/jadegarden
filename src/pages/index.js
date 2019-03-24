@@ -12,8 +12,8 @@ const IndexPage = () => (
         alt="Orange Chicken"
       />
     </p>
-    {/* <div class="flexslider">
-      <ul class="slides">
+    {/* <div className="flexslider">
+      <ul className="slides">
         <li>
           <a href="/chefs-specials-vegetables/">
             <img src="/img/slide-orange-chicken.jpg" alt="Orange Chicken" />
@@ -44,8 +44,8 @@ const IndexPage = () => (
       </ul>
     </div> */}
 
-    <div class="row">
-      <div class="col-sm-8">
+    <div className="row">
+      <div className="col-sm-8">
         <h1>Welcome to Jade Garden</h1>
         <p>
           Located in Buena Vista, Colorado, Jade Garden specializes in a wide
@@ -58,8 +58,8 @@ const IndexPage = () => (
           cuisine in the Buena Vista area!
         </p>
       </div>
-      <div class="col-sm-4 text-center">
-        <div class="hours">
+      <div className="col-sm-4 text-center">
+        <div className="hours">
           <h2>Restaurant Hours</h2>
           <p>Tuesday - Sunday: 11am - 9:00pm</p>
           <p>Close 10:30pm in Summer</p>

@@ -11,8 +11,11 @@ const Layout = ({ children }) => (
     <Helmet
       title="Jade Garden Chinese Restaurant - Buena Vista Colorado"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        {
+          name: 'description',
+          content:
+            'Jade Garden Chinese restaurant offers classic Chinese food, located in Buena Vista Colorado.',
+        },
       ]}
     >
       <html lang="en" />
