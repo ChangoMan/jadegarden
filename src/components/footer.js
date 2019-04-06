@@ -11,7 +11,7 @@ const Footer = () => (
               <a href="/">Jade Garden</a>
             </h3>
             <p>
-              527 North Hwy. 24
+              505 US Hwy 24 N.
               <br />
               Buena Vista, CO 81211
             </p>

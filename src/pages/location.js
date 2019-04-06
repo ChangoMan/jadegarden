@@ -9,14 +9,14 @@ const LocationIndex = () => (
         <iframe
           title="iframe-map"
           className="iframe-map"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12429.740074935107!2d-106.13645655296646!3d38.845398141446694!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8715354a1bf260e7%3A0x8e2035bea8ac5739!2sJade+Garden!5e0!3m2!1sen!2sus!4v1394906471776"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.4237943498338!2d-106.13521869734618!3d38.84565512784786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x871535361f59f15d%3A0xc3a21e5d1754673b!2s505+US+Hwy+24+N%2C+Buena+Vista%2C+CO+81211!5e0!3m2!1sen!2sus!4v1554511446969!5m2!1sen!2sus"
           frameBorder="0"
         />
       </div>
       <div className="col-md-4">
         <h3 className="title-line">Address:</h3>
         <h4>
-          527 North Hwy. 24
+          505 US Hwy 24 N.
           <br />
           Buena Vista, CO 81211
         </h4>
