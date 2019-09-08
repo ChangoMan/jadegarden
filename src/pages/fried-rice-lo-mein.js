@@ -4,7 +4,7 @@ import LayoutInner from '../components/layoutInner'
 
 const FriedRiceIndex = () => (
   <LayoutInner>
-    <h1 className="top">Fried Rice &amp; Lo Mein</h1>
+    <h1 className="top">Fried Rice &amp; Lo Mein!</h1>
 
     <table className="table table-menu">
       <tbody>
