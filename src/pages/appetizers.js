@@ -1,5 +1,4 @@
 import React from 'react'
-
 import LayoutInner from '../components/layoutInner'
 
 const AppetizersIndex = () => (
@@ -12,37 +11,37 @@ const AppetizersIndex = () => (
           <td>
             <p className="menu-title">Spring Rolls (2)</p>
           </td>
-          <td className="menu-price">$2.95</td>
+          <td className="menu-price">$3.25</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">Chicken Wings (6)</p>
           </td>
-          <td className="menu-price">$6.35</td>
+          <td className="menu-price">$6.95</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">Beef Skewer (4)</p>
           </td>
-          <td className="menu-price">$6.35</td>
+          <td className="menu-price">$6.95</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">Crab Cheese Wonton (6)</p>
           </td>
-          <td className="menu-price">$6.35</td>
+          <td className="menu-price">$6.95</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">Fried or Steam Dumplings (6)</p>
           </td>
-          <td className="menu-price">$6.35</td>
+          <td className="menu-price">$6.95</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">Fried Shrimp (6)</p>
           </td>
-          <td className="menu-price">$6.35</td>
+          <td className="menu-price">$6.95</td>
         </tr>
         <tr>
           <td>
@@ -54,7 +53,7 @@ const AppetizersIndex = () => (
               </em>
             </p>
           </td>
-          <td className="menu-price">$6.35</td>
+          <td className="menu-price">$7.95</td>
         </tr>
         <tr>
           <td>
@@ -66,7 +65,7 @@ const AppetizersIndex = () => (
               </em>
             </p>
           </td>
-          <td className="menu-price">$14.95</td>
+          <td className="menu-price">$19.95</td>
         </tr>
         <tr>
           <td colSpan="2">
@@ -78,8 +77,8 @@ const AppetizersIndex = () => (
             <p className="menu-title">Egg Drop Soup</p>
           </td>
           <td className="menu-price">
-            $2.25 (Small)
-            <br /> $5.89 (Large)
+            $2.95 (Small)
+            <br /> $6.95 (Large)
           </td>
         </tr>
         <tr>
@@ -89,8 +88,8 @@ const AppetizersIndex = () => (
             </p>
           </td>
           <td className="menu-price">
-            $2.25 (Small)
-            <br /> $5.89 (Large)
+            $2.95 (Small)
+            <br /> $6.95 (Large)
           </td>
         </tr>
         <tr>
@@ -98,15 +97,15 @@ const AppetizersIndex = () => (
             <p className="menu-title">Wonton Soup</p>
           </td>
           <td className="menu-price">
-            $2.25 (Small)
-            <br /> $5.89 (Large)
+            $2.95 (Small)
+            <br /> $6.95 (Large)
           </td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">War Wonton Soup (for two)</p>
           </td>
-          <td className="menu-price">$7.25</td>
+          <td className="menu-price">$9.95</td>
         </tr>
         <tr>
           <td>
@@ -115,13 +114,13 @@ const AppetizersIndex = () => (
               (for two)
             </p>
           </td>
-          <td className="menu-price">$7.25</td>
+          <td className="menu-price">$9.95</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">Vegetable Tofu Soup (for two)</p>
           </td>
-          <td className="menu-price">$7.25</td>
+          <td className="menu-price">$7.95</td>
         </tr>
       </tbody>
     </table>

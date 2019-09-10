@@ -1,5 +1,4 @@
 import React from 'react'
-
 import LayoutInner from '../components/layoutInner'
 
 const ChefsSpecialsIndex = () => (
@@ -10,39 +9,15 @@ const ChefsSpecialsIndex = () => (
       <tbody>
         <tr>
           <td>
-            <p className="menu-title">
-              Sesame Chicken<strong className="text-red">*</strong>
-            </p>
-          </td>
-          <td className="menu-price">$13.45</td>
-        </tr>
-        <tr>
-          <td>
-            <p className="menu-title">
-              General Tso's Chicken<strong className="text-red">*</strong>
-            </p>
-          </td>
-          <td className="menu-price">$13.45</td>
-        </tr>
-        <tr>
-          <td>
-            <p className="menu-title">
-              Tangerine Chicken<strong className="text-red">*</strong>
-            </p>
-          </td>
-          <td className="menu-price">$13.45</td>
-        </tr>
-        <tr>
-          <td>
             <p className="menu-title">Combination Egg Foo Young</p>
           </td>
-          <td className="menu-price">$14.45</td>
+          <td className="menu-price">$16.95</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">Sweet &amp; Sour Triple</p>
           </td>
-          <td className="menu-price">$14.45</td>
+          <td className="menu-price">$16.95</td>
         </tr>
         <tr>
           <td>
@@ -50,55 +25,67 @@ const ChefsSpecialsIndex = () => (
               Kung Pao Triple<strong className="text-red">*</strong>
             </p>
           </td>
-          <td className="menu-price">$14.45</td>
+          <td className="menu-price">$16.95</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">
               Tangerine Double<strong className="text-red">*</strong>
             </p>
-            <p>Deep fried chicken and shrimp in special orange sauce.</p>
+            <p>
+              <small>
+                Deep fried chicken and shrimp in special orange sauce
+              </small>
+            </p>
           </td>
-          <td className="menu-price">$14.45</td>
+          <td className="menu-price">$16.95</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">Happy Family</p>
             <p>
-              Chicken, beef, shrimp, zucchini, mushroom, carrot, broccoli,
-              waterchestnut, cooked in chef's special sauce.
+              <small>
+                Chicken, beef, shrimp, zucchini, mushroom, carrot, broccoli,
+                waterchestnut, cooked in chef's special sauce
+              </small>
             </p>
           </td>
-          <td className="menu-price">$15.45</td>
+          <td className="menu-price">$16.95</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">Sizzling Beef and Scallop</p>
             <p>
-              Beef and scallop with snow peas, waterchestnut in chef's special
-              sauce.
+              <small>
+                Beef and scallop with snow pea, waterchestnut in chef's special
+                sauce
+              </small>
             </p>
           </td>
-          <td className="menu-price">$15.45</td>
+          <td className="menu-price">$16.95</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">
-              Dragon and Phoenix<strong className="text-red">*</strong>
+              Dragon &amp; Phoenix<strong className="text-red">*</strong>
             </p>
-            <p>Hunan shrimp and sesame chicken, two favorites.</p>
+            <p>
+              <small>Hunan shrimp and sesame chicken, two favorites</small>
+            </p>
           </td>
-          <td className="menu-price">$15.45</td>
+          <td className="menu-price">$16.95</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">Seafood Delight</p>
             <p>
-              Shrimp, scallop, imitation crab, and mixed vegetables cooked in
-              chef's special sauce.
+              <small>
+                Shrimp, scallop, imitation crab, mixed vegetables, cooked in
+                chef's brown sauce
+              </small>
             </p>
           </td>
-          <td className="menu-price">$15.45</td>
+          <td className="menu-price">$16.95</td>
         </tr>
         <tr>
           <td>
@@ -107,27 +94,97 @@ const ChefsSpecialsIndex = () => (
               <strong className="text-red">*</strong>
             </p>
             <p>
-              Shrimp, scallop, bamboo, waterchestnut, zucchini, mushroom,
-              broccoli, onions cooked in special garlic sauce.
+              <small>
+                Shrimp, scallop, bamboo, waterchestnut, zucchini, mushroom,
+                broccoli, onion cooked in special garlic sauce
+              </small>
             </p>
           </td>
-          <td className="menu-price">$15.45</td>
+          <td className="menu-price">$16.95</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table className="table table-menu">
+      <tbody>
+        <tr>
+          <td colspan="3">
+            <h2>Vegetables</h2>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td className="menu-price">Lunch</td>
+          <td className="menu-price">Dinner</td>
+        </tr>
+        <tr>
+          <td>
+            <p className="menu-title">Mixed Chinese Vegetables</p>
+          </td>
+          <td className="menu-price">$9.25</td>
+          <td className="menu-price">$11.25</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">
-              Sesame Beef<strong className="text-red">*</strong>
+              Kung Pao Tofu<strong className="text-red">*</strong>
             </p>
           </td>
-          <td className="menu-price">$15.45</td>
+          <td className="menu-price">$9.25</td>
+          <td className="menu-price">$11.25</td>
+        </tr>
+        <tr>
+          <td>
+            <p className="menu-title">Snow Pea With Waterchestnut</p>
+          </td>
+          <td className="menu-price"></td>
+          <td className="menu-price">$11.25</td>
+        </tr>
+        <tr>
+          <td>
+            <p className="menu-title">Tofu Home Style</p>
+          </td>
+          <td className="menu-price">$9.25</td>
+          <td className="menu-price">$11.25</td>
         </tr>
         <tr>
           <td>
             <p className="menu-title">
-              Sesame Shrimp<strong className="text-red">*</strong>
+              Sesame Tofu<strong className="text-red">*</strong>
             </p>
           </td>
-          <td className="menu-price">$15.45</td>
+          <td className="menu-price">$9.25</td>
+          <td className="menu-price">$11.25</td>
+        </tr>
+        <tr>
+          <td>
+            <p className="menu-title">
+              Broccoli with Garlic Sauce<strong className="text-red">*</strong>
+            </p>
+          </td>
+          <td className="menu-price">$9.25</td>
+          <td className="menu-price">$11.25</td>
+        </tr>
+        <tr>
+          <td>
+            <p className="menu-title">Vegetable Egg Foo Young</p>
+          </td>
+          <td className="menu-price"></td>
+          <td className="menu-price">$11.25</td>
+        </tr>
+        <tr>
+          <td>
+            <p className="menu-title">Thai Peanut Tofu</p>
+          </td>
+          <td className="menu-price">$9.25</td>
+          <td className="menu-price">$11.25</td>
+        </tr>
+        <tr>
+          <td>
+            <p className="menu-title">Mu Shu Vegetable</p>
+          </td>
+          <td className="menu-price"></td>
+          <td className="menu-price">$11.25</td>
         </tr>
       </tbody>
     </table>
