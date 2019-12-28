@@ -62,7 +62,6 @@ const IndexPage = () => (
         <div className="hours">
           <h2>Restaurant Hours</h2>
           <p>Tuesday - Sunday: 11am - 9:00pm</p>
-          <p>Close 10:30pm in Summer</p>
         </div>
         <h3>(719) 395-4950</h3>
       </div>
